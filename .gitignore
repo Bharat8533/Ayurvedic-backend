@@ -1,0 +1,47 @@
+# Dependencies
+node_modules/
+package-lock.json.bak
+
+# Environment variables & secrets (Never commit credentials!)
+.env
+.env.local
+.env.*.local
+*.env
+
+# Patient data & consultation fallback records (Confidential Medical Info)
+submissions/
+uploads/
+
+# Logs & debugging
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# macOS System Files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows System Files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDE & Editor Directories
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
